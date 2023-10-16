@@ -38,7 +38,7 @@ extern "C"
 {
 #endif
 
-#if defined(_WIN32) && !defined(__GNUC__)
+#if defined(_WIN32) && 0
 
 #ifdef UAVS3D_EXPORTS
 #define AVS3D_API __declspec(dllexport)
